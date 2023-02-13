@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/153934.svg">
+    <link rel="stylesheet" href="./clima.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="contenedor" id="contenedor">
+        <div class="busqueda_pricipal" id="busqueda_pricipal">
+                <div class="SearchDiv" id="SearchDiv">
+                    <input type="text" autocomplete="off" placeholder="Buscar" class="buscar" id="buscar">
+                    <button id="boton">Buscar</button>
+                </div>
+        </div>
+            <div class="card-clima" id="card-clima">
+                <div id="clima-temperature">
+                    <div  id="climaCity"> </div>
+                    <div class="clima-date" id="climaDate"></div>
+                        <div class="cont-temp">
+                            <img src="./img/153934.svg" alt="" class="temperature-img" id="temperatureImg">
+                        <div class="temperature-text" id="temperatureText"></div>
+                    </div>
+                </div>
+            <div class="clima-main">
+                <div class="weatherImg">
+                    <div class="weather" id="weather"></div>
+                    <img src="./img/apple-weather.svg" alt="" class="img-apple">
+                </div>
+                <div class="range" id="range"></div>
+            </div>
+        </div>
+    
+    </section>
+    
+    <script src="./clima.js"></script>
+</body>
+</html>
